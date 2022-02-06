@@ -1,7 +1,10 @@
 body {
     margin: 60px auto;
-    width: 70%;
-    background-colour: light-blue;
+    width: 70%;<style>
+    background-image: url('images/map_2.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
