@@ -1,10 +1,60 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-image: url('/images/map_2.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: purple;
+}
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+.middleground{
+	transform: translateZ(-2.5px) scale(1.25);
+	]
+
+.foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.background,
+.middleground,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title {
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;;
+}
+
+section {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
