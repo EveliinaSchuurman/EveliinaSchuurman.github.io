@@ -4,11 +4,12 @@
 }*/
 body {
   margin: 0;
+overflow-y: auto;
 }
 
 .wrapper {
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
   perspective: 10px;
 background-image: url("/images/skyline.png");
