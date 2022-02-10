@@ -2,14 +2,13 @@
     
 }*/
 body {
-   margin: 60px auto;
-   width: 70%;
+   margin: 0;
 /*overflow-y: auto;
   background-image: url("/images/skyline.png");*/
 }
 
 .wrapper {
-  height: 100vh;
+  /*height: 100vh;*/
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
